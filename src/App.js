@@ -14,13 +14,14 @@ function App() {
   // },[])
   // const state = useSelector(state=>state)
   // console.log(state)
+
   return (
     <Router>
       <Layout>
         <Switch>
           <Route path="/" component={Main} exact />
           <Route path="/main" component={Main} />
-          <Route path="/detail" component={Detail} />
+          <Route path="/product/:id" component={Detail} />
         </Switch>
       </Layout>
     </Router>
