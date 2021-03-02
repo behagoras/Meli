@@ -1,13 +1,13 @@
-import React, { useLayoutEffect } from 'react';
-import Header from '../header/Header';
+import React from 'react'
+import Header from '../header/Header'
 
-function Layout(props){
-    return (
-        <div>
-            <Header/>
-            {props.children}
-        </div>
-    );
+function Layout(props) {
+  return (
+    <div>
+      <Header />
+      {props.children}
+    </div>
+  )
 }
 
-export default Layout;
+export default Layout
